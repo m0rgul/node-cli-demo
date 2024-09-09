@@ -1,0 +1,27 @@
+{
+  "name": "cli-demo",
+  "version": "1.0.0",
+  "description": "Payment demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ioan Mihali",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.4",
+    "@types/readline-sync": "^1.4.8",
+    "@types/yargs": "^17.0.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
